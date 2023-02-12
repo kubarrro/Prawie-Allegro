@@ -1,0 +1,104 @@
+.navbar{
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+    background-color: orangered;
+    float: left;
+    width: 100%;
+    display: flex;
+    border:0;
+    position: fixed;
+    top:0;
+    left:0;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding-left: 10px;
+
+}
+ ul, ul li {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+li{
+    padding-left: 100px;
+}
+
+.in{
+    padding-left: 700px;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+a:hover {text-decoration: none;}
+
+.Prod{
+    border-bottom: 100px;
+    background-color: gray;
+    padding-top: 20px;
+    width: 40%;
+    height: 800px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 30px;
+    position: fixed;
+    top: 60px;
+    left:30px;
+    justify-content: center;
+}
+
+.Prod2{
+    border-bottom: 100px;
+    background-color: gray;
+    padding-top: 20px;
+    width: 30%;
+    height: 800px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 30px;
+    position: fixed;
+    top: 60px;
+    right:0;
+    justify-content: center;
+}
+
+.zdj{
+    position: fixed;
+    top: 200px;
+}
+
+.buy{
+    position: fixed;
+    top: 530px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+
+.zdj2{
+    position: fixed;
+    top: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    background-color: orangered;
+    width: 100%;
+}
